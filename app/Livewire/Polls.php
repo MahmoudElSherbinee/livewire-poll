@@ -17,9 +17,9 @@ class Polls extends Component
         return view('livewire.polls', ['polls' => $polls]);
     }
 
-    public function addVote($optionId)
+    public function addVote(Option $option)
     {
-        Option::where('id', $optionId)->first()->votes()->create();
+        $option->votes()->create();
     }
 
 }
