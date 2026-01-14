@@ -42,7 +42,7 @@ A real-time polling application built with **Laravel Livewire** that allows user
 ## 🛠️ **Technology Stack**
 
 ### **Backend**
-- **Laravel 10+** - PHP Framework
+- **Laravel 12+** - PHP Framework
 - **Livewire 3+** - Full-stack framework for Laravel
 - **Eloquent ORM** - Database management
 
