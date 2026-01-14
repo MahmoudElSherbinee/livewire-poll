@@ -12,16 +12,18 @@ class CreatePoll extends Component
     public $title;
 
     #[Validate([
-        'options' => 'required|array|min:1|max:10',
+        'options' => 'required|array|min:2|max:10',
         'options.*' => 'required|min:1|max:255'
     ], message: [
         'options.*' => "The option field can't be empty",
-        'options.max' => "One Poll can't have more than 10 options"
+        'options.max' => "One Poll can't have more than 10 options",
+        'options.min' => "One Poll can't have less than 2 options"
     ])]
-    public $options = ['first'];
+    public $options = [''];
 
 
-    public function updated($propertyName){
+    public function updated($propertyName)
+    {
         $this->validateOnly($propertyName);
     }
     public function render()
@@ -40,6 +42,7 @@ class CreatePoll extends Component
                 ->all()
         );
         $this->reset(['title', 'options']);
+        $this->dispatch('poll-created');
     }
 
     public function addOption()

@@ -15,4 +15,13 @@ class Poll extends Model
     {
         return $this->hasMany(Option::class);
     }
+
+    public function votes()
+    {
+        return $this->hasManyThrough(Vote::class, Option::class);
+    }
+    public function totalVotes()
+    {
+        return $this->votes()->count();
+    }
 }
