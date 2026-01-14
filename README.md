@@ -42,7 +42,7 @@ A real-time polling application built with **Laravel Livewire** that allows user
 ## 🛠️ **Technology Stack**
 
 ### **Backend**
-- **Laravel 10+** - PHP Framework
+- **Laravel 12+** - PHP Framework
 - **Livewire 3+** - Full-stack framework for Laravel
 - **Eloquent ORM** - Database management
 
@@ -391,30 +391,6 @@ APP_DEBUG=true
 - Use meaningful variable names
 - Add comments for complex logic
 - Update documentation as needed
-
----
-
-## 📄 **License**
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙏 **Acknowledgments**
-
-- **Laravel Team** - For the amazing framework
-- **Livewire Team** - For the reactive components
-- **Tailwind CSS** - For the utility-first CSS
-- **All Contributors** - For their valuable input
-
----
-
-## 📞 **Support**
-
-For support, feature requests, or bug reports:
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Create a new issue with detailed description
-3. Tag with appropriate labels (bug, feature, enhancement)
 
 ---
 
