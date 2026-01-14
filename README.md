@@ -394,28 +394,4 @@ APP_DEBUG=true
 
 ---
 
-## 📄 **License**
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙏 **Acknowledgments**
-
-- **Laravel Team** - For the amazing framework
-- **Livewire Team** - For the reactive components
-- **Tailwind CSS** - For the utility-first CSS
-- **All Contributors** - For their valuable input
-
----
-
-## 📞 **Support**
-
-For support, feature requests, or bug reports:
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Create a new issue with detailed description
-3. Tag with appropriate labels (bug, feature, enhancement)
-
----
-
 **Made with ❤️ using Laravel Livewire & Tailwind CSS**
